@@ -7,6 +7,15 @@ public class StringExamples{
       // index = s.indexOf("");
       System.out.println(index);
     }
+    public void testStr(){
+      String s = "      Sean ";
+      String t = s.trim();
+      String lo = s.toLowerCase();
+      String up = s.toUpperCase();
+      System.out.println(t);
+      System.out.println(lo);
+      System.out.println(up);
+    }
   
     public void testSubstring(){
           String x = "Little Baby L";
